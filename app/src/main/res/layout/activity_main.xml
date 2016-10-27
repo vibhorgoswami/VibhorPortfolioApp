@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.govibs.vibhorportfolioapp.MainActivity">
+
+    <TextView
+        android:id="@+id/tvDashboardHome"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="@string/text_title_label" />
+
+    <Button
+        android:id="@+id/btnPopularMovieApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_button_text"
+        android:background="@color/color_button_background"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_alignStart="@id/tvDashboardHome"
+        android:layout_alignLeft="@id/tvDashboardHome"
+        android:layout_alignEnd="@id/tvDashboardHome"
+        android:layout_alignRight="@id/tvDashboardHome"
+        android:layout_below="@id/tvDashboardHome"
+        android:layout_centerHorizontal="true"
+        android:text="@string/text_title_app_popular_movies"/>
+
+    <Button
+        android:id="@+id/btnStockApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_button_text"
+        android:background="@color/color_button_background"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_below="@id/btnPopularMovieApp"
+        android:layout_alignStart="@id/tvDashboardHome"
+        android:layout_alignLeft="@id/tvDashboardHome"
+        android:layout_alignEnd="@id/tvDashboardHome"
+        android:layout_alignRight="@id/tvDashboardHome"
+        android:layout_centerHorizontal="true"
+        android:text="@string/text_title_app_stock_hawk"/>
+
+    <Button
+        android:id="@+id/btnBuiltItBiggerApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_button_text"
+        android:background="@color/color_button_background"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_below="@id/btnStockApp"
+        android:layout_alignStart="@id/tvDashboardHome"
+        android:layout_alignLeft="@id/tvDashboardHome"
+        android:layout_alignEnd="@id/tvDashboardHome"
+        android:layout_alignRight="@id/tvDashboardHome"
+        android:layout_centerHorizontal="true"
+        android:text="@string/text_title_app_build_it_bigger"/>
+
+    <Button
+        android:id="@+id/btnMaterialApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_button_text"
+        android:background="@color/color_button_background"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_below="@id/btnBuiltItBiggerApp"
+        android:layout_alignStart="@id/tvDashboardHome"
+        android:layout_alignLeft="@id/tvDashboardHome"
+        android:layout_alignEnd="@id/tvDashboardHome"
+        android:layout_alignRight="@id/tvDashboardHome"
+        android:layout_centerHorizontal="true"
+        android:text="@string/text_title_app_make_material"/>
+
+    <Button
+        android:id="@+id/btnGoUbiquitousApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_button_text"
+        android:background="@color/color_button_background"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_below="@id/btnMaterialApp"
+        android:layout_alignStart="@id/tvDashboardHome"
+        android:layout_alignLeft="@id/tvDashboardHome"
+        android:layout_alignEnd="@id/tvDashboardHome"
+        android:layout_alignRight="@id/tvDashboardHome"
+        android:layout_centerHorizontal="true"
+        android:text="@string/text_title_app_go_ubiquitous"/>
+
+    <Button
+        android:id="@+id/btnCapstoneApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_button_text"
+        android:background="@color/color_button_background"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_below="@id/btnGoUbiquitousApp"
+        android:layout_alignStart="@id/tvDashboardHome"
+        android:layout_alignLeft="@id/tvDashboardHome"
+        android:layout_alignEnd="@id/tvDashboardHome"
+        android:layout_alignRight="@id/tvDashboardHome"
+        android:layout_centerHorizontal="true"
+        android:text="@string/text_title_app_capstone"/>
+
+</RelativeLayout>
